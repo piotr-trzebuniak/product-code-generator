@@ -272,7 +272,7 @@ ${c.responsibleEntity.shop!==""?`<h2>Podmiot odpowiedzialny:</h2>${c.responsible
       <h3>Informacja:</h3>
       ${c.additionalInformation}
       <h4>Producent:</h4>
-      ${c.producer.shop}
+      <p>${c.producer.shop}</p>
       ${c.responsibleEntity.shop?`<p>${c.responsibleEntity.shop}</p>`:""}
     </div>
   </div>
